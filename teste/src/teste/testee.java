@@ -20,7 +20,15 @@ public static void main(String[] args) {
 		
 	//Usando operador ternário
 	 resultado = a == b ? "verdaddeiro" : "falso";
+	 
+	 String nomeUm = "Diego";
+	 String nomeDois = new String("Diego");
 
+	 
+	 //Quando formos comparar variáveis com objetos, devemos utilizar o "equals"
+	 System.out.println(nomeUm.equals(nomeDois));
+		 
+	 
 
 	}
 	}
